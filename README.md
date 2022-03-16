@@ -5,7 +5,7 @@ Shows users in a Discord voice channel
 ## Server
 go version 1.17 or higher required
 ```bash
-go install -v github.com/pipipear/VoiceStatus/VoiceServer
+go install -v github.com/pipipear/VoiceStatus/VoiceServer@latest
 ln -s ~/go/bin/VoiceServer ~/.config/autostart/
 
 nano ~/.config/VoiceStatus.json
