@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=VoiceServer
+Icon=speaker
+Exec=~/go/bin/VoiceServer
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
