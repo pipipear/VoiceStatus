@@ -1,0 +1,16 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VoiceStatus
+Comment=Shows users in a Discord voice channel
+Type=Service
+Icon=speaker
+
+X-KDE-PluginInfo-Author=Pi
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Name=com.github.pipipear.voicestatus
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/pipipear/VoiceStatus
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-KDE-PluginInfo-Category=Utilities

@@ -1,0 +1,48 @@
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name="" />
+
+  <group name="Display">
+    <entry name="sortByNick" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="sortByUsername" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="sortById" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="serverId" type="String">
+      <default></default>
+    </entry>
+    <entry name="sortDirectionAscending" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="sortDirectionDescending" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="sortStyleApp" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="sortStyleOverlay" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="userSpacing" type="Int">
+      <default>2</default>
+    </entry>
+    <entry name="channelSpacing" type="Int">
+      <default>8</default>
+    </entry>
+    <entry name="avatarMipmap" type="Bool">
+      <default>true</default>
+    </entry>
+  </group>
+
+  <group name="Backend">
+    <entry name="localhostPort" type="Int">
+      <default>5462</default>
+    </entry>
+    <entry name="reconnectDelay" type="Int">
+      <default>5</default>
+    </entry>
+  </group>
+</kcfg>
