@@ -31,4 +31,4 @@ sudo apt-get install qml-module-qtwebsockets
 sudo pacman -S qt5-websockets
 sudo dnf install qt5-qtwebsockets
 ```
-The plasmoid can be installed from [https://www.pling.com/p/1735750/]https://www.pling.com/p/1735750/
+The plasmoid can be installed from [https://www.pling.com/p/1735750/](https://www.pling.com/p/1735750/)
