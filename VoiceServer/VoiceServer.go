@@ -114,7 +114,7 @@ func guildMemberUpdate(s *discordgo.Session, m *discordgo.GuildMemberUpdate) {
 
 func connect(s *discordgo.Session, m *discordgo.Connect) {
 	setInfo("discordAPI", "connected")
-	time.Sleep(50 * time.Millisecond)
+	time.Sleep(200 * time.Millisecond)
 	updateInfo(s)
 }
 
