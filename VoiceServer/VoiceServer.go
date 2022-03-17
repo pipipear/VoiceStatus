@@ -114,8 +114,11 @@ func guildMemberUpdate(s *discordgo.Session, m *discordgo.GuildMemberUpdate) {
 
 func connect(s *discordgo.Session, m *discordgo.Connect) {
 	setInfo("discordAPI", "connected")
-	time.Sleep(1 * time.Second)
-	updateInfo(s)
+	time.Sleep(50 * time.Millisecond)
+	for i := 0; i < 3; i++ {
+		updateInfo(s)
+		time.Sleep(1 * time.Second)
+	}
 }
 
 func disconnect(s *discordgo.Session, m *discordgo.Disconnect) {
