@@ -1,0 +1,11 @@
+[Unit]
+Description=VoiceServer
+After=network-online.target
+
+[Service]
+ExecStart=%h/go/bin/VoiceServer
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
