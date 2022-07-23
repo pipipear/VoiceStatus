@@ -6,6 +6,7 @@ import org.kde.plasma.core 2.0 as PlasmaCore
 
 RowLayout {
   id: channel
+  Layout.minimumHeight: parent.height
   property var users: []
   spacing: plasmoid.configuration.userSpacing
   Component.onCompleted: {
