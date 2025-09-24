@@ -144,7 +144,7 @@ func updateInfo(s *discordgo.Session) {
 			}
 		}
 
-		// This recursion can likely be improved
+		// These loops can likely be improved
 		for _, Category := range Guild.Channels {
 			if Category.Type == discordgo.ChannelTypeGuildCategory {
 				for _, Channel := range Guild.Channels {
